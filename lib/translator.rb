@@ -11,11 +11,6 @@ def load_library(hash)
       hash[key][:japanese] = value[1]
     end
 
-      
-     
-  
-  
- 
 end
 
 def get_japanese_emoticon
