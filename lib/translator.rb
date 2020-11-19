@@ -14,7 +14,7 @@ end
 def get_english_meaning(hash, emoticon)
   
   load_library(hash).each do |key, value|
-    return key
+    return key == key[value]
   end 
   
   
