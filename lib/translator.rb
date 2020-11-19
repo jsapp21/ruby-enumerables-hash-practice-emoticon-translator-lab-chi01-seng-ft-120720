@@ -9,7 +9,7 @@ def load_library(hash)
       hash[key] = {}
       hash[key][:english] = value[0]
       hash[key][:japanese] = value[1]
-      binding.pry 
+
     end
 
       
