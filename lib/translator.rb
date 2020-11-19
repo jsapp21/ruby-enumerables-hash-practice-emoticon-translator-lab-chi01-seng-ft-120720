@@ -10,9 +10,7 @@ def load_library(hash)
       hash[key][:english] = ""
       hash[key][:japanese] = ''
     end
-      value.each do |inner_key|
-        binding.pry 
-      end
+
       
      
   
