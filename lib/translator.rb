@@ -2,10 +2,10 @@
 
 require 'yaml'
 
-hash = YAML.load_file("emoticons.yml")
+
 
 def load_library
-  
+  hash = YAML.load_file("emoticons.yml")
 end
 
 def get_japanese_emoticon
