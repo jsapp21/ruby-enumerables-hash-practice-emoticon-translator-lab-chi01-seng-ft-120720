@@ -16,7 +16,10 @@ def get_english_meaning(hash, emoticon)
   load_library(hash).each do |key, value|
     if value[:japanese] == emoticon
       return key
-    end 
+    end
+    if value[:japanese] == nil 
+      return 
+    
   end 
   
   
