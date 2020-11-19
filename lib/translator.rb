@@ -27,5 +27,6 @@ def get_japanese_emoticon(hash, emoticon)
       return value[:japanese]  
     end
   end 
+  return 
 end
 
