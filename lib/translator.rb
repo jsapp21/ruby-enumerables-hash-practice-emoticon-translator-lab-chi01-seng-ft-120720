@@ -11,10 +11,11 @@ def load_library(hash)
     end
 end
 
+def get_english_meaning(hash, emoticon)
+
+end
+
 def get_japanese_emoticon
   
 end
 
-def get_english_meaning(hash, emoticon)
-  # code goes here
-end
