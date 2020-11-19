@@ -21,7 +21,7 @@ def get_english_meaning(hash, emoticon)
     end
   end 
     
-  end 
+end 
   
   
   
