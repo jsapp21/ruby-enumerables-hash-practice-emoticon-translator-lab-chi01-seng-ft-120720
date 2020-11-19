@@ -24,7 +24,7 @@ end
 def get_japanese_emoticon(hash, emoticon)
   load_library(hash). each do |key, value|
     if value[:japanese] == emoticon
-      return value 
+      return key  
     end
   end 
 end
