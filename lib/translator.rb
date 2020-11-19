@@ -8,7 +8,7 @@ def load_library(hash)
     hash.each do |key, value|
       hash[key] = {}
       hash[key][:english] = ""
-      hash[key][:japanese] = ''
+      hash[key][:japanese] = ""
     end
 
       
