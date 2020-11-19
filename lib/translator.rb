@@ -2,6 +2,8 @@
 
 require 'yaml'
 
+hash = YAML.load_file("file_path")
+
 def load_library
   
 end
