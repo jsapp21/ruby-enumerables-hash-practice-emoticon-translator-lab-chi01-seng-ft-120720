@@ -5,7 +5,7 @@ require 'pry'
 def load_library(hash)
  
   hash = YAML.load_file("lib/emoticons.yml")
-    Hash.new do |hash, key|
+    hash.map do |hash, key|
       hash[key] = :english
     end
   
