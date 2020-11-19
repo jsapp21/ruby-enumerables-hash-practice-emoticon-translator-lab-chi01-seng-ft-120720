@@ -7,6 +7,8 @@ def load_library(hash)
   hash = YAML.load_file("lib/emoticons.yml")
     hash.each do |key, value|
       hash[key] = {}
+      hash[key][:english] = ""
+      hash[key][:japanese] = ''
     end
      
   
