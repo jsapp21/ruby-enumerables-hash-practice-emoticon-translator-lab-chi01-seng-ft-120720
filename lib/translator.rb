@@ -9,7 +9,8 @@ def load_library(hash)
       binding.pry 
       inner_hash = {}
     end
-      key.each do |
+      key.each do ||
+    end 
   
   
  
