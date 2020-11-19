@@ -5,9 +5,10 @@ require 'pry'
 def load_library(hash)
  
   hash = YAML.load_file("lib/emoticons.yml")
-    hash.each do |hash, key|
-      hash[key]
+    hash.each do |inner_hash, key|
+      inner_hash = {}
     end
+      key.each do |
   
   
  
