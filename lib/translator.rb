@@ -11,8 +11,7 @@ def load_library(hash)
     end
 end
 
-def get_japanese_emoticon(hash)
-  hash = YAML.load_file("lib/emoticons.yml")
+def get_japanese_emoticon(hash, emoticon)
 end
 
 def get_english_meaning
