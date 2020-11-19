@@ -21,7 +21,8 @@ def get_english_meaning(hash, emoticon)
   return "Sorry, that emoticon was not found"
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(hash, emoticon)
+  
   
 end
 
