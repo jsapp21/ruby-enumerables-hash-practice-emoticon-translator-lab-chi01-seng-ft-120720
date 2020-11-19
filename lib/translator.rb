@@ -20,8 +20,6 @@ def get_english_meaning(hash, emoticon)
     
   end 
   
-  
-  
 end
 
 def get_japanese_emoticon
