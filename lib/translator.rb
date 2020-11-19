@@ -18,7 +18,8 @@ def get_english_meaning(hash, emoticon)
       return key
     end
     if value[:japanese] == nil 
-      return 
+      return "Sorry, that emoticon was not found"
+    end 
     
   end 
   
